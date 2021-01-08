@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+    
+}
+.container {
+   
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 100%;
+   margin: 1em;
+   font-size: 20px;
+   text-align: center;
+   
+}
+.column {
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1;
+}
+
+.tile{
+    background-color: white;
+    margin: 1em;
+    flex-grow:1;
+    cursor: pointer;
+   
+}
+#grow{
+    background-color: white;
+    margin: 1em;
+    flex-grow:3;
+    cursor: pointer;
+
+}
+#columngrow{
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 3;
+}
+#tiledefault{
+    background-color: white;
+    margin: 1em;
+    flex-grow:1;
+    cursor: pointer;
+
+}
+#columndefault {
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1;
+}
